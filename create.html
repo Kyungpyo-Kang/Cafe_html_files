@@ -16,7 +16,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="{%url 'index'%}">Cafe</a>
+    <a class="navbar-brand" href="#">Cafe</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,13 +33,13 @@
         </div>
       </div>
       
-      <form action="{%url 'create_pro'%}">
+      <form action="#">
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" placeholder="상품명 입력" name = 'product_name'>
+            <input type="text" class="form-control" placeholder="상품명 입력">
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="상품가격 입력" name = 'product_price'>
+            <input type="text" class="form-control" placeholder="상품가격 입력">
           </div>
         </div><br>
         <button type="submit" class="btn btn-primary">등록!</button>
